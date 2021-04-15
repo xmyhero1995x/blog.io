@@ -1,0 +1,185 @@
+.sectionFour {
+    margin: 0 0 44px 0;
+    padding: 32px 0 0 0;
+    border-top: 6px solid var(--border);
+}
+
+.container {
+    margin: 0 27px;
+}
+
+.sectionFour__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionFour__desc h2 {
+    margin: 0 0 13.5px 0;
+}
+
+.sectionFour__desc p {
+    margin: 0 0 36px 0;
+}
+
+.sectionFour__desc-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__name-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__subject-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionFour__desc-form input {
+    outline: none;
+    border: 2px solid var(--aBorderBottom);
+    border-radius: 5px;
+    width: 100%;
+    padding: 0 16px;
+    color: var(--pColor);
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.form__subject-message {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.sectionFour__desc-form input:focus {
+    border: 2px solid var(--mainColor);
+}
+
+.form__name {
+    height: 44px;
+}
+
+.form__email {
+    margin: 20px 0 0 0;
+    height: 44px;
+}
+
+.form__subject {
+    height: 44px;
+}
+
+.form__message {
+    margin: 20px 0 0 0;
+    outline: none;
+    border: 2px solid var(--aBorderBottom);
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 16px;
+    height: 196px;
+    text-align: start;
+    color: var(--pColor);
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.form__message:focus {
+    border: 2px solid var(--mainColor);
+}
+
+.sectionFour__desc-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.buttonSend {
+    height: 44px;
+    text-align: center;
+    background-color: var(--mainColor);
+    border: none;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--thirdColor);
+    margin: 0 0 18px 0;
+}
+
+.buttonSend:hover {
+    background-color: var(--mainColorHover);
+}
+
+.buttonReset {
+    height: 44px;
+    text-align: center;
+    background-color: var(--buttonReset);
+    border: none;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--thirdColor);
+}
+
+.buttonReset:hover {
+    background-color: var(--buttonResetHover);
+}
+
+@media (min-width: 1200px) {
+
+    .sectionFour {
+        margin: 0 0 70px 0;
+        padding: 70px 0 0 0;
+        border-top: 6px solid var(--border);
+    }
+
+    .form__name-email {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form__name {
+        margin: 0 35px 0 0;
+    }
+
+    .form__email {
+        margin: 0;
+        height: 44px;
+    }
+
+    .form__subject-message {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionFour__desc-buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 35px 0 0 0;
+    }
+
+    .buttonSend {
+        margin: 0 19.5px 0 0;
+        padding: 0 26px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .buttonReset {
+        padding: 0 26px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

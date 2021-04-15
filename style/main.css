@@ -1,0 +1,97 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./sectionMain.css);
+@import url(./sectionOne.css);
+@import url(./sectionTwo.css);
+@import url(./sectionThree.css);
+@import url(./sectionFour.css);
+@import url(./footer.css);
+
+:root {
+    --headerColor: #222;
+    --mainColor: #4acaa8;
+    --descColor: #d2f2e9;
+    --mainColorHover: #5ed0b1;
+    --mainColorBorderTop: #5ccfb1;
+    --secondColor: #777;
+    --pColor: #888888;
+    --thirdColor: #ffffff;
+    --border: #f4f4f4;
+    --aBorderBottom: #e4e4e4;
+    --borderRight-left: #d4d4d4;
+    --buttonReset: #989898;
+    --buttonResetHover: #a5a5a5;
+    --bgFooter: #fafafa;
+    --copyRights: #c0c0c0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: var(--secondColor);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--secondColor);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--pColor);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container {
+    margin: 0 27px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+    h2 {
+        color: var(--secondColor);
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    h3 {
+        color: var(--secondColor);
+        font-family: "Lato", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    p {
+        color: var(--pColor);
+        font-family: "Lato", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 780px;
+    }
+    
+
+}
